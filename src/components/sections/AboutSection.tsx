@@ -66,7 +66,7 @@ export default function AboutSection() {
               </a>
 
               <a
-                href={CONTACT.mail}
+                href={CONTACT.email}
                 className="btn btn--ghost">
                 <ICONS.email className="btn-ico text-base" aria-hidden />
                 {t.labels.contact.email}
